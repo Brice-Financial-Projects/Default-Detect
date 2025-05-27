@@ -1,0 +1,97 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+.Python
+*.log
+
+# ===========================
+# Conda / Pip Environments
+# ===========================
+env/
+venv/
+.venv/
+.conda/
+*.conda
+*.env
+*.envrc
+environment.yml.lock
+pip-wheel-metadata/
+pip-log.txt
+
+# ===========================
+# Jupyter & Notebooks
+# ===========================
+.ipynb_checkpoints/
+*.ipynb~  # autosaved scratch files
+
+# ===========================
+# Quarto / Book Output
+# ===========================
+_book/
+*.pdf
+*.html
+*.docx
+*.qmd~
+.quarto/
+.quarto_preview/
+
+# ===========================
+# Streamlit (includes JS/CSS/static)
+# ===========================
+.streamlit/config.toml
+.streamlit/static/
+.streamlit/static/*
+
+# Sometimes Streamlit caches inside root
+.cache/
+__streamlit__/
+
+# ===========================
+# JetBrains IDE (PyCharm, etc.)
+# ===========================
+*.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# VS Code (optional)
+# ===========================
+.vscode/
+.history/
+
+# ===========================
+# Data
+# ===========================
+data/raw/
+data/processed/
+*.sqlite
+*.db
+*.h5
+*.csv
+*.zip
+*.gz
+*.tar
+*.bak
+
+# ===========================
+# Misc
+# ===========================
+*.swp
+*.bak
+*.tmp
+*~

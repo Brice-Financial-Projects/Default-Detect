@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "DefaultDetect: Predicting Credit Card Default Risk"
+  author: "Brice Nelson"
+  date: today
+  chapters:
+    - index.qmd
+    - 01_problem_statement.qmd
+    - 02_data_overview.qmd
+    - 03_methodology.qmd
+    - 04_model_development.qmd
+    - 05_results_and_evaluation.qmd
+    - 06_business_implications.qmd
+    - 07_conclusion.qmd
+    - references.qmd
+
+format:
+  html:
+    theme: cosmo
+    number-sections: true
+  pdf:
+    documentclass: article
+    number-sections: true
