@@ -1,0 +1,18 @@
+# Data Overview
+
+This section provides a summary of the data used for model training and evaluation.
+
+## Data Sources
+
+- Public loan default datasets (e.g., LendingClub, UCI)
+- Synthetic data for sensitive features
+
+## Features
+
+- Borrower characteristics
+- Credit history metrics
+- Loan terms
+
+## Initial Data Cleaning
+
+> Placeholder: Mention outlier removal, imputation strategies, and data encoding steps.

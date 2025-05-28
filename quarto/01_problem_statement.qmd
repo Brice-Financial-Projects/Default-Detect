@@ -1,0 +1,11 @@
+# Problem Statement
+
+Credit default continues to be one of the most expensive risks financial institutions face. Traditional underwriting methods may fail to flag high-risk applicants early enough.
+
+In this section, we clearly define:
+- The specific business problem addressed
+- Why early detection is critical
+- The gap in existing models
+- Our proposed AI-enhanced approach
+
+> Placeholder: Insert any background research or real-world case examples here.

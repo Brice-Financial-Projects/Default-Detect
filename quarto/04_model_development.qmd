@@ -1,0 +1,16 @@
+# Model Development
+
+This section walks through:
+
+- Model selection (e.g., Random Forest, XGBoost, Logistic Regression)
+- Hyperparameter tuning
+- Cross-validation setup
+
+## Evaluation Metrics
+
+- Accuracy
+- ROC AUC
+- Precision/Recall
+- F1 Score
+
+> Placeholder: Include confusion matrices or ROC curves here later.

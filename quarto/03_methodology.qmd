@@ -1,0 +1,11 @@
+# Methodology
+
+We outline our end-to-end modeling approach including:
+
+1. **Data preprocessing**
+2. **Feature engineering**
+3. **Train/test split strategy**
+4. **Baseline models**
+5. **Advanced models**
+
+> Placeholder: Insert a flow diagram of your ML pipeline here if available.

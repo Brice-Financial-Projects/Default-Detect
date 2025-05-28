@@ -1,0 +1,11 @@
+---
+title: "Default Detect: AI-Powered Credit Risk Profiling"
+author: "Brice Nelson"
+format: html
+---
+
+# Executive Summary
+
+Welcome to *Default Detect*, a deep dive into using machine learning to proactively identify early signs of credit risk. This professional report outlines our data sources, modeling techniques, evaluation metrics, and business impact analysis.
+
+Use the sidebar to navigate through the sections of this book.

@@ -1,0 +1,7 @@
+# References
+
+> Placeholder: Cite all datasets, libraries, academic papers, and business sources used.
+
+- Dataset: [LendingClub](https://www.lendingclub.com/info/download-data.action)
+- Book: *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow*
+- Scikit-learn documentation

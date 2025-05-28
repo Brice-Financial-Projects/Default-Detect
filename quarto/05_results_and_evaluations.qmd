@@ -1,0 +1,11 @@
+# Results and Evaluation
+
+Here, we assess model performance and compare models using business-relevant metrics.
+
+## Key Findings
+
+- Top-performing models
+- Most important features
+- Error analysis (e.g., false negatives)
+
+> Placeholder: Tables and charts will be added once results are finalized.
