@@ -14,8 +14,6 @@ DefaultDetect/
 │   │   ├── data_loader.py
 │   │   ├── model_utils.py
 │   │   └── visuals.py
-│   ├── main.py
-│   ├── pages/
 │   └── components/
 │
 ├── .streamlit/                # Streamlit config
