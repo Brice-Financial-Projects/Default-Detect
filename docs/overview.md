@@ -61,6 +61,30 @@ These insights can guide:
 
 ---
 
+## 🧪 Statistical Testing & Feature Validation  
+
+To validate and justify key features in our model, we will apply statistical tests during the exploratory data analysis (EDA) phase:
+
+### Chi-Square Test of Independence  
+We will assess categorical variables like **employment length** to test whether there's a statistically significant association with default status. For example:
+
+- **Null Hypothesis (H₀):** Employment length and default status are independent  
+- **Alternative Hypothesis (H₁):** Employment length and default status are associated  
+
+A **Chi-Square test** will be performed on a contingency table, and the **degrees of freedom (DoF)** will be calculated as:  
+\[
+\text{DoF} = (\text{\# employment categories} - 1) \times (\text{\# default categories} - 1)
+\]
+
+If p-value < 0.05, we will reject the null hypothesis and retain the feature. Otherwise, we may consider combining or omitting the variable for model simplicity.
+
+This step supports:
+- Data-driven **feature selection**
+- **Model transparency** for stakeholders
+- **Documentation** for reporting and regulatory alignment
+
+---
+
 ## 💵 Cost-Benefit Analysis  
 
 We anticipate a high ROI from early detection:
