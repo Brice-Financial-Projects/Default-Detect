@@ -1,8 +1,8 @@
-"""app/pages/2_Problem_Statement.py"""
+"""app/pages/results.py"""
 
 import streamlit as st
 
 def app():
-    st.title("Problem Statement")
+    st.title("Results")
     st.markdown("🚀 A professional tool for AI-powered credit risk profiling.")
     st.markdown("Use the sidebar to navigate through the sections.")

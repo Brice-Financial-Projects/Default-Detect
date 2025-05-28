@@ -1,4 +1,4 @@
-"""app/pages/3_Data_Overview.py"""
+"""app/pages/data_overview.py"""
 
 import streamlit as st
 

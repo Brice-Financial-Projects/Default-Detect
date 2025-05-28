@@ -1,24 +1,26 @@
 """app/main.py"""
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import streamlit as st
-from app.pages import (
-    Home,
-    Problem_Statement,
-    Data_Overview,
-    Model_Development,
-    Results,
-)
+
+import app.pages.home as home
+import app.pages.problem_statement as problem_statement
+import app.pages.data_overview as data_overview
+import app.pages.model_development as model_development
+import app.pages.results as results
 
 st.set_page_config(page_title="Default Detect", layout="wide")
 
 PAGES = {
-    "Home": Home,
-    "Problem Statement": Problem_Statement,
-    "Data Overview": Data_Overview,
-    "Model Development": Model_Development,
-    "Results": Results,
+    "Home": home,
+    "Problem Statement": problem_statement,
+    "Data Overview": data_overview,
+    "Model Development": model_development,
+    "Results": results,
 }
 
-selection = st.sidebar.radio("Go to", list(PAGES.keys()))
-page = PAGES[selection]
-page.app()
+selection = st.sidebar.radio("Select Page", list(PAGES.keys()))
+PAGES[selection].app()
+
