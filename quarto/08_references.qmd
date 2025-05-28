@@ -1,7 +1,3 @@
 # References
 
-> Placeholder: Cite all datasets, libraries, academic papers, and business sources used.
-
-- Dataset: [LendingClub](https://www.lendingclub.com/info/download-data.action)
-- Book: *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow*
-- Scikit-learn documentation
+Yeh, I. (2009). Default of Credit Card Clients [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C55S3H.

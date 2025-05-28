@@ -29,6 +29,7 @@ DefaultDetect/
 │   └── todos.md
 │
 ├── notebooks/                 # Jupyter notebooks for dev/EDA
+│   ├── 00_data_exploration.ipynb
 │   ├── 01_data_cleaning.ipynb
 │   └── 02_modeling.ipynb
 │
