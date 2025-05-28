@@ -1,6 +1,19 @@
 DefaultDetect/
 │
 ├── app/                        # Streamlit app
+│   ├── __init__.py
+│   ├── main.py              # Main app entry point
+│   ├── pages/
+│   │   ├── 1_Home.py
+│   │   ├── 2_Problem_Statement.py
+│   │   ├── 3_Data_Overview.py
+│   │   ├── 4_Model_Development.py
+│   │   └── 5_Results.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── data_loader.py
+│   │   ├── model_utils.py
+│   │   └── visuals.py
 │   ├── main.py
 │   ├── pages/
 │   └── components/
@@ -46,6 +59,8 @@ DefaultDetect/
 ├── tests/                     # Unit tests
 │   └── test_modeling.py
 │
+├── setup.sh                 # Optional: Heroku/Docker setup
+├── Procfile                 # Required for Heroku
 ├── environment.yml            # Conda environment file
 ├── README.md                  # Project overview
 ├── requirements.txt           # Optional: for pip-based use
