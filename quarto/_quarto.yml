@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "DefaultDetect: Predicting Credit Card Default Risk"
+  title: "Default Detect: AI-Powered Credit Risk Profiling"
   author: "Brice Nelson"
   date: today
   chapters:
